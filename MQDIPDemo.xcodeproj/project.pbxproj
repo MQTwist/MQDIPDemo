@@ -12,8 +12,13 @@
 		484B18FD256E087600B95B82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B18FC256E087600B95B82 /* ViewController.m */; };
 		484B1900256E087600B95B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484B18FE256E087600B95B82 /* Main.storyboard */; };
 		484B1902256E087600B95B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484B1901256E087600B95B82 /* Assets.xcassets */; };
-		484B1905256E087600B95B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484B1903256E087600B95B82 /* LaunchScreen.storyboard */; };
 		484B1908256E087600B95B82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B1907256E087600B95B82 /* main.m */; };
+		484B1912256E089500B95B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484B1911256E089500B95B82 /* LaunchScreen.storyboard */; };
+		484B1916256E0AD200B95B82 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B1915256E0AD200B95B82 /* Driver.m */; };
+		484B191A256E0B6C00B95B82 /* Benzee.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B1919256E0B6C00B95B82 /* Benzee.m */; };
+		484B1925256E2D0F00B95B82 /* DIPDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B1924256E2D0F00B95B82 /* DIPDriver.m */; };
+		484B1929256E2DC500B95B82 /* DIPBentley.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B1928256E2DC500B95B82 /* DIPBentley.m */; };
+		484B192D256E2E9100B95B82 /* DIPBenzee.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B192C256E2E9100B95B82 /* DIPBenzee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +31,20 @@
 		484B18FC256E087600B95B82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		484B18FF256E087600B95B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		484B1901256E087600B95B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		484B1904256E087600B95B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		484B1906256E087600B95B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		484B1907256E087600B95B82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		484B1911256E089500B95B82 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		484B1914256E0AD200B95B82 /* Driver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
+		484B1915256E0AD200B95B82 /* Driver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
+		484B1918256E0B6C00B95B82 /* Benzee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Benzee.h; sourceTree = "<group>"; };
+		484B1919256E0B6C00B95B82 /* Benzee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Benzee.m; sourceTree = "<group>"; };
+		484B1923256E2D0F00B95B82 /* DIPDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIPDriver.h; sourceTree = "<group>"; };
+		484B1924256E2D0F00B95B82 /* DIPDriver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIPDriver.m; sourceTree = "<group>"; };
+		484B1927256E2DC500B95B82 /* DIPBentley.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIPBentley.h; sourceTree = "<group>"; };
+		484B1928256E2DC500B95B82 /* DIPBentley.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIPBentley.m; sourceTree = "<group>"; };
+		484B192B256E2E9100B95B82 /* DIPBenzee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIPBenzee.h; sourceTree = "<group>"; };
+		484B192C256E2E9100B95B82 /* DIPBenzee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIPBenzee.m; sourceTree = "<group>"; };
+		484B1933256E406A00B95B82 /* ICar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,15 +81,34 @@
 				484B18F6256E087600B95B82 /* AppDelegate.m */,
 				484B18F8256E087600B95B82 /* SceneDelegate.h */,
 				484B18F9256E087600B95B82 /* SceneDelegate.m */,
+				484B1914256E0AD200B95B82 /* Driver.h */,
+				484B1915256E0AD200B95B82 /* Driver.m */,
+				484B1918256E0B6C00B95B82 /* Benzee.h */,
+				484B1919256E0B6C00B95B82 /* Benzee.m */,
+				484B191D256E298E00B95B82 /* DIP */,
 				484B18FB256E087600B95B82 /* ViewController.h */,
 				484B18FC256E087600B95B82 /* ViewController.m */,
 				484B18FE256E087600B95B82 /* Main.storyboard */,
 				484B1901256E087600B95B82 /* Assets.xcassets */,
-				484B1903256E087600B95B82 /* LaunchScreen.storyboard */,
+				484B1911256E089500B95B82 /* LaunchScreen.storyboard */,
 				484B1906256E087600B95B82 /* Info.plist */,
 				484B1907256E087600B95B82 /* main.m */,
 			);
 			path = MQDIPDemo;
+			sourceTree = "<group>";
+		};
+		484B191D256E298E00B95B82 /* DIP */ = {
+			isa = PBXGroup;
+			children = (
+				484B1933256E406A00B95B82 /* ICar.h */,
+				484B192B256E2E9100B95B82 /* DIPBenzee.h */,
+				484B192C256E2E9100B95B82 /* DIPBenzee.m */,
+				484B1927256E2DC500B95B82 /* DIPBentley.h */,
+				484B1928256E2DC500B95B82 /* DIPBentley.m */,
+				484B1923256E2D0F00B95B82 /* DIPDriver.h */,
+				484B1924256E2D0F00B95B82 /* DIPDriver.m */,
+			);
+			path = DIP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				484B1905256E087600B95B82 /* LaunchScreen.storyboard in Resources */,
+				484B1912256E089500B95B82 /* LaunchScreen.storyboard in Resources */,
 				484B1902256E087600B95B82 /* Assets.xcassets in Resources */,
 				484B1900256E087600B95B82 /* Main.storyboard in Resources */,
 			);
@@ -147,8 +182,13 @@
 			files = (
 				484B18FD256E087600B95B82 /* ViewController.m in Sources */,
 				484B18F7256E087600B95B82 /* AppDelegate.m in Sources */,
+				484B192D256E2E9100B95B82 /* DIPBenzee.m in Sources */,
+				484B191A256E0B6C00B95B82 /* Benzee.m in Sources */,
 				484B1908256E087600B95B82 /* main.m in Sources */,
 				484B18FA256E087600B95B82 /* SceneDelegate.m in Sources */,
+				484B1925256E2D0F00B95B82 /* DIPDriver.m in Sources */,
+				484B1916256E0AD200B95B82 /* Driver.m in Sources */,
+				484B1929256E2DC500B95B82 /* DIPBentley.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,14 +201,6 @@
 				484B18FF256E087600B95B82 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		484B1903256E087600B95B82 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				484B1904256E087600B95B82 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -293,6 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MQDIPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MQDIPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
